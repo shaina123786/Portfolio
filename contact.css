@@ -12,121 +12,110 @@ body{
     scroll-behavior: smooth;
 
 }
-
-nav {
+ 
+   
+nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 60px;
+    height: 80px;
     background-color: rgb(209, 166, 195);
     overflow: hidden;
 }
-
-
-nav ul {
+nav ul{
     display: flex;
     justify-content: space-between;
 }
-
 nav ul li {
     list-style: none;
     margin: 0 48px;
 }
-
-.right a {
-    width: 70px;
-
-}
-
-ul li a {
-    padding: 10px;
+ul li a{
+    padding-left: 10px;
+    padding-right: 10px;
     text-decoration: none;
-    color: purple;
-    font-size: 18px;
-    font-weight: 700;
+    color:purple;
+    font-size: 1.4rem;
     transition: all 1s ease;
     transition-duration: 0.5s;
 }
-
-ul li a:hover {
+ul li a:hover{
     color: rgb(97, 15, 237);
-    font-size:20px;
-    border-radius: 10px;
-    background-color: #880854;
-}
+    font-size: 1.5rem;
+    border-radius: 2px;
+    border-style: double;
 
-.left {
-    font-size: 22px;
 }
-
-span {
+.left{
+    font:2rem sans-serif;
+}
+span{
     position: relative;
     color: rgb(165, 36, 165);
 
 }
 .contact{
-    font-size: 30px;
-    margin-top: 80px;
-    margin-left:60px;
+    font-size: 2.2rem;
+    margin-top: 100px;
+    margin-left: 80px;
     color: maroon;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
-
 .name input{
-    width: 550px;
-    height: 50px;
+    width: 650px;
+    height: 60px;
     padding: 20px;
-    margin-left: 50px;
-    margin-top: 50px;
+    margin-left: 60px;
+    margin-top: 60px;
     outline: none;
   border: none;
-  font-size: 15px;
+  font-size: 20px;
   border-radius: 20px;
   background-color: #fbe9fa;
 
 }
 .name input:hover{
-    width: 550px;
-    height: 50px;
+    width: 655px;
+    height: 65px;
     border-color: #eb515e;
     border-style: double;
 }
 
 .mail input{
-    width: 550px;  
-    height: 50px;
+    width: 650px;  
+    height: 60px;
     padding: 20px;
-    margin-left: 50px;
-    margin-top: 50px;
+    margin-left: 60px;
+    margin-top: 60px;
     outline: none;
   border: none;
-  font-size:15px;
+  font-size: 20px;
   border-radius: 20px;
   background-color: #fbe9fa;
 
 }
 .mail input:hover{
-    width: 550px;  
-    height:50px;
+    width: 655px;  
+    height: 65px;
     border-color: #eb515e;
     border-style: double;
 
 }
 #first{
-    width: 550px;
-    height: 180px;
+    width: 650px;
+    height: 200px;
     padding: 20px;
-    margin-left: 50px;
-    margin-top: 50px;
+    margin-left: 60px;
+    margin-top: 60px;
     outline: none;
   border: none;
-  font-size: 20px;
-  border-radius:15px;
+  font-size: 25px;
+  border-radius: 20px;
   background-color: #fbe9fa;
 }
 #first:hover{
-    width: 550px;
-    height:175px;
+    width: 658px;
+    height: 205px;
     border-color: #eb515e;
     border-style: double;
 
@@ -161,13 +150,16 @@ span {
 .left-pic img{
     width: 800px;
      margin-top: 100px;
+
+
+
 }
 footer{
     text-align: center;
-    margin-bottom: 10px;
-    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-top: 110px;
     color: maroon;
-    font-size:18px;
+    font-size: 2rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
